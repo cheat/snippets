@@ -1,0 +1,12 @@
+---
+syntax: go
+tags:
+  - date
+  - go
+  - time
+  - timestamp
+  - format
+---
+// format today's date as "YYYY-MM-DD" (type: string)
+ts := time.Now().Format("2006-01-02")
+// fmt.Println(ts)

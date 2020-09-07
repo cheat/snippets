@@ -1,0 +1,18 @@
+---
+syntax: go
+tags:
+  - encode
+  - go
+  - json
+  - marshal
+  - serialize
+  - struct
+---
+foo := Foo{Bar: "baz"}
+
+bytes, err := json.Marshal(&foo)
+if err != nil {
+  panic(err)
+}
+
+// fmt.Println(string(bytes))

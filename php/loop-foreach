@@ -1,0 +1,11 @@
+---
+syntax: php
+tags:
+  - control
+  - for
+  - loop
+  - php
+---
+foreach (['a', 'b', 'c'] as $idx => $val) {
+  // echo "$idx: $val\n";
+}

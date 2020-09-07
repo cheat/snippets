@@ -1,0 +1,12 @@
+---
+syntax: php
+tags:
+  - control
+  - loop
+  - php
+  - while
+---
+$i = 0;
+do {
+    // echo $i;
+} while ($i > 0);

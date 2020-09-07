@@ -1,0 +1,10 @@
+---
+syntax: php
+tags:
+  - encode
+  - json
+  - marshall
+  - php
+  - serialize
+---
+$json = json_encode(['foo' => 'bar'], JSON_PRETTY_PRINT);

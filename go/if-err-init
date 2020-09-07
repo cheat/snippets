@@ -1,0 +1,11 @@
+---
+syntax: go
+tags:
+  - control
+  - error
+  - go
+  - initialize
+---
+if err := fn(); err != nil {
+
+}

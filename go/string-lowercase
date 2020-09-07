@@ -1,0 +1,8 @@
+---
+syntax: go
+tags:
+  - go
+  - lowercase
+  - string
+---
+lower := strings.ToLower("FOO")

@@ -1,0 +1,16 @@
+---
+syntax: go
+tags:
+  - database
+  - db
+  - go
+  - prepare
+  - sql
+  - statement
+  - stmt
+---
+stmt, err := db.Prepare("INSERT INTO foo(id, bar) VALUES(?, ?)")
+if err != nil {
+  return fmt.Errof("failed to initialize prepared statement: %v", err)
+}
+defer stmt.Close()

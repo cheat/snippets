@@ -1,0 +1,12 @@
+---
+syntax: go
+tags:
+  - anonymous
+  - closure
+  - function
+  - go
+  - lambda
+---
+fn := func(x int) bool {
+  return x > 10000
+}

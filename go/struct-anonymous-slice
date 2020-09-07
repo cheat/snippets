@@ -1,0 +1,16 @@
+---
+syntax: go
+tags:
+  - anonymous
+  - go
+  - slice
+  - struct
+---
+users := []struct {
+  ID    int
+  First string
+  Last  string
+}{
+  {1, "John", "Smith"},
+  {2, "Jane", "Smith"},
+}

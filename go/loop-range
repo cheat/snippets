@@ -1,0 +1,11 @@
+---
+syntax: go
+tags:
+  - control
+  - foreach
+  - go
+  - loop
+---
+for i, val := range []int{ 1, 2, 3 } {
+  fmt.Println(fmt.Sprintf("%d: %d", i, val))
+}

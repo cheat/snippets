@@ -1,0 +1,8 @@
+---
+syntax: php
+tags:
+  - directory
+  - list
+  - php
+---
+$files = scandir($dir);

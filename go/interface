@@ -1,0 +1,11 @@
+---
+syntax: go
+tags:
+  - go
+  - interface
+  - type
+---
+type Car interface {
+  Speed() float64
+  Honk() string
+}

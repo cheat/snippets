@@ -1,0 +1,10 @@
+---
+syntax: go
+tags:
+  - execute
+  - go
+  - shell
+  - syscall
+  - thread
+---
+TODO

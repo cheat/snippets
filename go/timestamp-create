@@ -1,0 +1,10 @@
+---
+syntax: go
+tags:
+  - date
+  - go
+  - time
+  - timestamp
+---
+// create a timestmap (type: Time)
+ts := time.Now()

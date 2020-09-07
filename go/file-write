@@ -1,0 +1,11 @@
+---
+syntax: go
+tags:
+  - file
+  - go
+  - io
+  - write
+---
+if err := ioutil.WriteFile("/tmp/data.txt", []byte("hello world"), 0644); err != nil {
+  // log.Fatalf("failed to write file: %v", err)
+}

@@ -1,0 +1,10 @@
+---
+syntax: php
+tags:
+  - add
+  - array
+  - php
+  - push
+  - slice
+---
+$array[] = $element;

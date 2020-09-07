@@ -1,0 +1,42 @@
+---
+syntax: go
+tags:
+  - database
+  - db
+  - go
+  - prepare
+  - sql
+  - statement
+  - stmt
+  - transaction
+  - tx
+---
+// initialize a transaction
+tx, err := db.Begin()
+if err != nil {
+  // log.Fatal(err)
+}
+// the rollback will be ignored if the later commit succeeds
+defer tx.Rollback()
+
+// initialize a prepared statement
+stmt, err := tx.Prepare(`
+  INSERT INTO foo(id, bar)
+  VALUES(?, ?)`,
+)
+if err != nil {
+  // log.Fatal(err)
+}
+defer stmt.Close()
+
+// loop over records to insert and execute the statement
+for id, val := range []string{"foo", "bar", "baz"} {
+  if _, err := stmt.Exec(id+1, val); err != nil {
+    // log.Fatal(err)
+  }
+}
+
+// commit the transaction on successful insertions
+if err := tx.Commit(); err != nil {
+  // log.Fatal(err)
+}

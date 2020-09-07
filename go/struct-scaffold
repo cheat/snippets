@@ -1,0 +1,33 @@
+---
+syntax: go
+tags:
+  - class
+  - go
+  - scaffold
+  - struct
+  - type
+---
+package foo
+
+import (
+  // ...
+)
+
+// Foo represents...
+type Foo struct {
+	ID   int    `json:"id,string"`
+	Bar  string `json:"bar,string"`
+}
+
+// New returns a new Foo struct
+func New(id int, bar string) (Foo, error) {
+  return Foo{
+    ID: id,
+    Bar: bar,
+  }, nil
+}
+
+// Baz does...
+func (f *Foo) Baz() string {
+  return "baz"
+}

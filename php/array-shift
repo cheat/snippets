@@ -1,0 +1,12 @@
+---
+syntax: php
+tags:
+  - array
+  - keys
+  - php
+  - slice
+---
+$letters = ['a', 'b', 'c'];
+$a = array_shift($letters);
+// $a now equals 'a'
+// $letters now equals ['b', 'c']

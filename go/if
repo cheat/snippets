@@ -1,0 +1,10 @@
+---
+syntax: go
+tags:
+  - conditional
+  - control
+  - go
+---
+if true {
+
+}

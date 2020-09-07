@@ -1,0 +1,15 @@
+---
+syntax: go
+tags:
+  - file
+  - go
+  - io
+  - read
+---
+bytes, err := ioutil.ReadFile("/path/to/file")
+if err != nil {
+  // log.Fatalf("failed to read file: %v", err)
+}
+
+// coerce `[]byte` to `string` if necessary
+// fmt.Println(string(bytes))

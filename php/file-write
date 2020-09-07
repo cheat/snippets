@@ -1,0 +1,11 @@
+---
+syntax: php
+tags:
+  - file
+  - filesystem
+  - io
+  - php
+  - string
+  - write
+---
+$numBytes = file_put_contents('Hello, world!', '/tmp/hello-world.txt');

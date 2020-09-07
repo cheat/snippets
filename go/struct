@@ -1,0 +1,12 @@
+---
+syntax: go
+tags:
+  - go
+  - struct
+  - type
+---
+// Foo represents...
+type Foo struct {
+	ID   int    `json:"id,string"`
+	Bar  string `json:"bar,string"`
+}

@@ -1,0 +1,12 @@
+---
+syntax: php
+tags:
+  - array
+  - map
+  - php
+  - slice
+---
+$cube = function ($n) {
+    return ($n * $n * $n);
+};
+$mapped = array_map($cube, [1, 2, 3]);

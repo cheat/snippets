@@ -1,0 +1,27 @@
+---
+syntax: sql
+tags:
+  - create
+  - init
+  - table
+  - sqlite
+  - sqlite3
+---
+-- stores raw imported ticker data
+CREATE TABLE IF NOT EXISTS ticker (
+	pair           TEXT   NOT NULL,
+	date           NUMBER NOT NULL,
+	base           TEXT   NOT NULL,
+	counter        TEXT   NOT NULL,
+	exchange       TEXT   NOT NULL,
+	last           NUMBER NOT NULL,
+	lowest_ask     NUMBER NOT NULL,
+	highest_bid    NUMBER NOT NULL,
+	percent_change NUMBER NOT NULL,
+	base_volume    NUMBER NOT NULL,
+	quote_volume   NUMBER NOT NULL,
+	is_frozen      NUMBER NOT NULL,
+	high_24_hr     NUMBER NOT NULL,
+	low_24_hr      NUMBER NOT NULL,
+  PRIMARY KEY (pair, date, last)
+) WITHOUT ROWID;

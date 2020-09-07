@@ -1,0 +1,20 @@
+---
+syntax: go
+tags:
+  - contains
+  - control
+  - exists
+  - go
+  - isset
+  - map
+  - ok
+---
+m := map[string]int{
+  "one"   : 1,
+  "two"   : 2,
+  "three" : 3,
+}
+
+if val, ok := m["one"]; ok {
+  fmt.Println(val)
+}

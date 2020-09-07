@@ -1,0 +1,11 @@
+---
+syntax: go
+tags:
+  - decode
+  - go
+  - struct
+  - unmarshal
+  - unserialize
+  - yaml
+---
+TODO

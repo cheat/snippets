@@ -1,0 +1,9 @@
+---
+syntax: go
+tags:
+  - go
+  - var
+  - initialize
+---
+pi := 3.14
+// var pi float64 = 3.14

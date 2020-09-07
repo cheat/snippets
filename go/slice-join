@@ -1,0 +1,10 @@
+---
+syntax: go
+tags:
+  - go
+  - implode
+  - slice
+  - split
+  - string
+---
+joined := strings.Join([]string{"foo", "bar", "bar"}, " ")

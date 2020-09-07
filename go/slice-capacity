@@ -1,0 +1,9 @@
+---
+syntax: go
+tags:
+  - array
+  - capacity
+  - go
+  - slice
+---
+c = cap([]int{1, 2, 3})

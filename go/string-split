@@ -1,0 +1,9 @@
+---
+syntax: go
+tags:
+  - explode
+  - go
+  - split
+  - string
+---
+parts := strings.Split("foo bar baz", " ")

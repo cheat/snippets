@@ -1,0 +1,11 @@
+---
+syntax: php
+tags:
+  - control
+  - loop
+  - php
+  - while
+---
+while (true) {
+
+}

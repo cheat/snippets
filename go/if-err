@@ -1,0 +1,10 @@
+---
+syntax: go
+tags:
+  - control
+  - error
+  - go
+---
+if err != nil {
+
+}

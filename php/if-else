@@ -1,0 +1,12 @@
+---
+syntax: php
+tags:
+  - conditional
+  - control
+  - php
+---
+if (true) {
+
+} else {
+
+}

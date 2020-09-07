@@ -1,0 +1,16 @@
+---
+syntax: go
+tags:
+  - function
+  - go
+  - scaffold
+  - testing
+---
+// TestFoo asserts that...
+func TestFoo(t *testing.T) {
+  good := "good"
+  bad := "bad"
+  if good != bad {
+    t.Errorf("failed to function: want: %s, got: %s", good, bad)
+  }
+}

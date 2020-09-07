@@ -1,0 +1,9 @@
+---
+syntax: go
+tags:
+  - function
+  - go
+---
+func add(x int, y int) (int, error) {
+  return x+y, nil
+}

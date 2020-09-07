@@ -1,0 +1,8 @@
+---
+syntax: go
+tags:
+  - go
+  - var
+  - declare
+---
+var pi float64

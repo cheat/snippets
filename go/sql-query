@@ -1,0 +1,35 @@
+---
+syntax: go
+tags:
+  - db
+  - go
+  - query
+  - select
+  - sql
+---
+// query rows from the database
+rows, err := db.Query("SELECT ID, foo, bar FROM baz")
+if err != nil {
+  // log.Fatalf("failed to query database: %v", err)
+}
+defer rows.Close()
+
+// iterate over each row
+for rows.Next() {
+
+  // package each row into a struct
+  baz := Baz{}
+  err = rows.Scan(
+    &baz.ID,
+    &baz.foo,
+    &baz.bar,
+  )
+
+  // handle scanning errors
+  err = rows.Err()
+  if err != nil {
+    // log.Fatalf("failed to scan row: %v", err)
+  }
+
+  // ... now do something with the `baz` struct
+}

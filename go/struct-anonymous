@@ -1,0 +1,16 @@
+---
+syntax: go
+tags:
+  - anonymous
+  - go
+  - struct
+---
+user := struct {
+  ID    int
+  First string
+  Last  string
+}{
+  1,
+  "John",
+  "Smith",
+}

@@ -1,0 +1,11 @@
+---
+syntax: go
+tags:
+  - date
+  - go
+  - time
+  - timestamp
+  - unix
+---
+// create a Unix timestmap (type: int64)
+ts := time.Now().Unix()

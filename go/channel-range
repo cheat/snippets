@@ -1,0 +1,13 @@
+---
+syntax: go
+tags:
+  - channel
+  - go
+  - iterate
+  - loop
+  - range
+---
+// queue := make(chan string, 2)
+for item := range queue {
+  // fmt.Println(item)
+}

@@ -1,0 +1,8 @@
+---
+syntax: php
+tags:
+  - conditional
+  - control
+  - php
+---
+$value = (true) ? 'yes' : 'no';

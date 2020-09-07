@@ -1,0 +1,12 @@
+---
+syntax: php
+tags:
+  - heredoc
+  - php
+  - string
+---
+$str = <<<EOD
+Example of string
+spanning multiple lines
+using heredoc syntax.
+EOD;

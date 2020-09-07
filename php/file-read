@@ -1,0 +1,11 @@
+---
+syntax: php
+tags:
+  - file
+  - filesystem
+  - io
+  - php
+  - read
+  - string
+---
+$text = file_get_contents('/tmp/hello-world.txt');

@@ -1,0 +1,9 @@
+---
+syntax: php
+tags:
+  - coalesce
+  - conditional
+  - null
+  - php
+---
+$username = $_GET['user'] ?? 'nobody';

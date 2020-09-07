@@ -1,0 +1,11 @@
+---
+syntax: php
+tags:
+  - array
+  - coerce
+  - object
+  - php
+  - struct
+---
+// coerce an associative array into an Stdclass object
+$obj = (object)['foo' => 'bar'];

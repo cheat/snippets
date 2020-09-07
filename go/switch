@@ -1,0 +1,20 @@
+---
+syntax: go
+tags:
+  - case
+  - conditional
+  - control
+  - go
+  - switch
+---
+switch day {
+  case "sunday":
+    // cases don't "fall through" by default!
+    fallthrough
+
+  case "saturday":
+    rest()
+
+  default:
+    work()
+}

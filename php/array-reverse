@@ -1,0 +1,9 @@
+---
+syntax: php
+tags:
+  - array
+  - php
+  - reverse
+  - slice
+---
+$rev = array_reverse(["foo", "bar"]);

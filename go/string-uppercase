@@ -1,0 +1,8 @@
+---
+syntax: go
+tags:
+  - go
+  - lowercase
+  - string
+---
+upper := strings.ToUpper("foo")

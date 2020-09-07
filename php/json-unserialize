@@ -1,0 +1,10 @@
+---
+syntax: php
+tags:
+  - decode
+  - json
+  - php
+  - unmarshall
+  - unserialize
+---
+$obj = json_decode('{"foo":"bar"}');

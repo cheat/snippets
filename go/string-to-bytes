@@ -1,0 +1,10 @@
+---
+syntax: go
+tags:
+  - bytes
+  - coerce
+  - convert
+  - go
+  - string
+---
+str := string(myBytes)

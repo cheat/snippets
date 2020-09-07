@@ -1,0 +1,19 @@
+---
+syntax: go
+tags:
+  - go
+  - input
+  - io
+  - pipe
+  - read
+  - stdin
+---
+// read from stdin indefinitely
+scanner := bufio.NewScanner(os.Stdin)
+for scanner.Scan() {
+  // fmt.Println(scanner.Text())
+}
+
+if err := scanner.Err(); err != nil {
+	// log.Fatalf("failed to read stdin: %v", err)
+}

@@ -1,0 +1,13 @@
+---
+syntax: go
+tags:
+  - combine
+  - concat
+  - go
+  - merge
+  - slice
+---
+// combine two slices into a single slice
+a := []int{1, 2, 3}
+b := []int{4, 5, 6}
+c := append(a, b...)

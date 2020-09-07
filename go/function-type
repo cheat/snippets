@@ -1,0 +1,9 @@
+---
+syntax: go
+tags:
+  - function
+  - go
+  - struct
+  - type
+---
+type Foo func(string, string) (string, error)

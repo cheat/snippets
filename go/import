@@ -1,0 +1,12 @@
+---
+syntax: go
+tags:
+  - dependency
+  - go
+  - import
+  - module
+  - require
+---
+import (
+  "fmt"
+)

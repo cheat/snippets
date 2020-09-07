@@ -1,0 +1,13 @@
+---
+syntax: go
+tags:
+  - class
+  - function
+  - go
+  - method
+  - struct
+---
+// Baz does...
+func (f *Foo) Baz() string {
+  return "baz"
+}

@@ -1,0 +1,9 @@
+---
+syntax: php
+tags:
+  - array
+  - keys
+  - php
+  - slice
+---
+$keys = array_keys(['a', 'b', 'c']);

@@ -1,0 +1,23 @@
+---
+syntax: go
+tags:
+- db
+- go
+- query
+- select
+- sql
+- sqlx
+---
+// define a struct to map to table rows
+type user struct {
+	ID   int    `db:"id"`
+	Name string `db:"name"`
+}
+
+// initialize a slice to store row data
+users := []users{}
+
+// query the database
+if err := db.Select(&users, "SELECT * FROM users"); err != nil {
+	// log.Fatalf("failed to select users: %v", err)
+}

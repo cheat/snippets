@@ -1,0 +1,13 @@
+---
+syntax: go
+tags:
+  - assert
+  - coerce
+  - convert
+  - go
+  - type
+---
+// assert that an empty interface is a string
+var i interface{} = "hello"
+s := i.(string)
+/*fmt.Println(s)*/

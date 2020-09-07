@@ -1,0 +1,13 @@
+---
+syntax: go
+tags:
+  - run
+  - db
+  - execute
+  - go
+  - query
+  - sql
+---
+if result, err := db.Exec("INSERT INTO foo(bar) VALUES ('baz')"); err != nil {
+	// log.Fatalf("failed to execute: %v", err)
+}

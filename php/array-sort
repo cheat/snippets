@@ -1,0 +1,10 @@
+---
+syntax: php
+tags:
+  - array
+  - php
+  - slice
+  - sort
+---
+$arr = ['c', 'b', 'a'];
+sort($arr);
