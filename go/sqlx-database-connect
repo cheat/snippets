@@ -6,11 +6,11 @@ tags:
   - db
   - go
   - open
-  - sql
+  - sqlx
 ---
 // connect to the database
-db, err := sql.Open("sqlite3", "/tmp/db.sqlite3")
+db, err := sqlx.Connect("sqlite3", "/tmp/db.sqlite3")
 if err != nil {
-  // panic(err)
+  // log.Fatalf("failed to connect to database: %v", err)
 }
 defer db.Close()
