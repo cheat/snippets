@@ -1,0 +1,13 @@
+---
+syntax: go
+tags:
+  - array
+  - capacity
+  - element
+  - get
+  - go
+  - item
+  - random
+---
+set := []int{1, 2, 3}
+item := set[rand.Intn(len(set))]

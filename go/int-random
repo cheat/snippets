@@ -1,0 +1,13 @@
+---
+syntax: go
+tags:
+  - create
+  - get
+  - go
+  - integer
+  - number
+  - random
+---
+// seed the random number generator
+rand.Seed(time.Now().Unix())
+r := rand.Intn(5) // return 0-4; set is [0,n)
