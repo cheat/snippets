@@ -1,0 +1,20 @@
+---
+syntax: go
+tags:
+  - date
+  - day
+  - go
+  - month
+  - time
+  - timestamp
+  - year
+---
+/* Get year, month, day of time */
+
+// all:
+year, month, day := time.Now().Date()
+
+// individual:
+year  := time.Now().Year()  // type int
+month := time.Now().Month() // type time.Month
+day   := time.Now().Day()   // type int
