@@ -1,0 +1,9 @@
+---
+syntax: lua
+tags:
+  - function
+  - lua
+---
+function foo(bar)
+  return bar
+end
