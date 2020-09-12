@@ -8,4 +8,21 @@ tags:
   - unserialize
   - yaml
 ---
-TODO
+// define a struct into which to unmarshal
+type User struct {
+  FirstName string `yaml:"firstname"`
+  LastName  string `yaml:"lastname"`
+}
+
+// initialize a struct
+var user User
+
+// initialize the yaml string
+yml := "---\nfirstname: John\nlastname: Smith"
+
+// unmarshal the string into the struct
+if err := yaml.UnmarshalStrict([]byte(yml), &user); err != nil {
+  // log.Fatalf("failed to unmarshal yaml: %v", err)
+}
+
+// fmt.Println(user.FirstName)
