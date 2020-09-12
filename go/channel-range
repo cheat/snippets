@@ -7,7 +7,16 @@ tags:
   - loop
   - range
 ---
-// queue := make(chan string, 2)
+// initialize a queue channel
+queue := make(chan string, 2)
+
+// push items into the queue
+queue <- "foo"
+queue <- "bar"
+
+// close the queue to prevent deadlock
+close(queue)
+
 for item := range queue {
-  // fmt.Println(item)
+  fmt.Println(item)
 }
