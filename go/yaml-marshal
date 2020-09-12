@@ -1,0 +1,32 @@
+---
+syntax: go
+tags:
+  - encode
+  - go
+  - marshal
+  - serialize
+  - struct
+  - yaml
+---
+/* Marshal a struct into a YAML string */
+
+// define a struct to marshal
+type User struct {
+  FirstName string `yaml:"firstname"`
+  LastName  string `yaml:"lastname"`
+}
+
+// initialze a struct
+user := User{
+  FirstName: "John",
+  LastName:  "Smith",
+}
+
+// marshal the struct into a slice of bytes
+bs, err := yaml.Marshal(&user)
+if err != nil {
+  // log.Fatalf("failed to marshal yaml: %v", err)
+}
+
+// coerce the slice of bytes to a string
+// fmt.Println(string(bs))

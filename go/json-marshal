@@ -3,15 +3,17 @@ syntax: go
 tags:
   - encode
   - go
+  - json
   - marshal
   - serialize
   - struct
-  - yaml
 ---
+/* Marshal a struct into a JSON string */
+
 // define a struct to marshal
 type User struct {
-  FirstName string `yaml:"firstname"`
-  LastName  string `yaml:"lastname"`
+  FirstName string `json:"firstname"`
+  LastName  string `json:"lastname"`
 }
 
 // initialze a struct
@@ -21,9 +23,9 @@ user := User{
 }
 
 // marshal the struct into a slice of bytes
-bs, err := yaml.Marshal(&user)
+bs, err := json.Marshal(&user)
 if err != nil {
-  // log.Fatalf("failed to marshal yaml: %v", err)
+  // log.Fatalf("failed to marshal json: %v", err)
 }
 
 // coerce the slice of bytes to a string

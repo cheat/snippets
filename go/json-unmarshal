@@ -1,0 +1,31 @@
+---
+syntax: go
+tags:
+  - decode
+  - go
+  - json
+  - parse
+  - struct
+  - unmarshal
+  - unserialize
+---
+/* Unmarshal a JSON string into a struct instance */
+
+// define a struct into which to unmarshal
+type User struct {
+  FirstName string `json:"firstname"`
+  LastName  string `json:"lastname"`
+}
+
+// initialize a struct
+var user User
+
+// initialize the json string
+js := `{"firstname":"John","lastname":"Smith"}`
+
+// unmarshal the string into the struct
+if err := json.Unmarshal([]byte(js), &user); err != nil {
+  // log.Fatalf("failed to unmarshal json: %v", err)
+}
+
+// fmt.Println(user.FirstName)

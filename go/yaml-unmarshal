@@ -3,11 +3,14 @@ syntax: go
 tags:
   - decode
   - go
+  - parse
   - struct
   - unmarshal
   - unserialize
   - yaml
 ---
+/* Unmarshal a YAML string into a struct instance */
+
 // define a struct into which to unmarshal
 type User struct {
   FirstName string `yaml:"firstname"`
@@ -21,7 +24,7 @@ var user User
 yml := "---\nfirstname: John\nlastname: Smith"
 
 // unmarshal the string into the struct
-if err := yaml.UnmarshalStrict([]byte(yml), &user); err != nil {
+if err := yaml.Unmarshal([]byte(yml), &user); err != nil {
   // log.Fatalf("failed to unmarshal yaml: %v", err)
 }
 
