@@ -1,0 +1,15 @@
+---
+syntax: go
+tags:
+  - atoi
+  - coerce
+  - convert
+  - go
+  - integer
+  - parseint
+  - string
+---
+i, err := strconv.Atoi("10")
+if err != nil {
+  // log.Fatalf("failed to convert to integer: %v", err)
+}
