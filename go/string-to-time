@@ -1,0 +1,17 @@
+---
+syntax: go
+tags:
+  - coerce
+  - convert
+  - date
+  - go
+  - string
+  - time
+  - timestamp
+---
+// formatting constants: https://golang.org/pkg/time/#pkg-constants
+// first param is format string; second param is date to parse
+today, err := time.Parse("2006-01-02", "2020-01-01")
+if err != nil {
+  // log.Fatalf("failed to parse date string: %v", err)
+}
