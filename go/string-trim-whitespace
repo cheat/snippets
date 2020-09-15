@@ -1,0 +1,9 @@
+---
+syntax: go
+tags:
+  - go
+  - string
+  - trim
+  - whitespace
+---
+trimmed := strings.TrimSpace("  foo\n")

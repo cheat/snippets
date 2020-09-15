@@ -1,0 +1,11 @@
+---
+syntax: go
+tags:
+  - coerce
+  - convert
+  - float
+  - go
+  - string
+---
+s := fmt.Sprintf("%f", 123.45)   // do not truncate decimals, or
+s := fmt.Sprintf("%.2f", 123.45) // truncate to 2 decimal places

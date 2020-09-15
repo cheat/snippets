@@ -1,1 +1,10 @@
-TODO
+---
+syntax: go
+tags:
+  - coerce
+  - convert
+  - float
+  - go
+  - int
+---
+f := float64(10)

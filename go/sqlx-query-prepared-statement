@@ -1,0 +1,24 @@
+---
+syntax: go
+tags:
+  - db
+  - go
+  - prepared
+  - query
+  - select
+  - sql
+  - sqlx
+  - statement
+  - stmt
+---
+// initialize the prepared statement
+stmt, err := db.Preparex("SELECT * FROM foo WHERE bar = $1 AND baz = $2")
+if err != nil {
+    // log.Fatalf("failed to prepare statement: %v", err)
+}
+
+// query records into an array of structs
+foos := []Foo{}
+if err = stmt.Get(&foos, "qux", "quux"); err != nil {
+    // log.Fatalf("failed to query database: %v", err)
+}

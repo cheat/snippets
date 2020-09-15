@@ -1,1 +1,14 @@
-TODO
+---
+syntax: go
+tags:
+  - coerce
+  - convert
+  - float
+  - go
+  - string
+---
+// second param is float size
+f, err := strconv.ParseFloat("3.1415", 64)
+if err != nil {
+  // log.Fatalf("failed to parse string as float: %v", err)
+}
