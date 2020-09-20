@@ -1,6 +1,7 @@
 ---
 syntax: go
 tags:
+  - convert
   - go
   - lowercase
   - string

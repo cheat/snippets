@@ -1,7 +1,6 @@
 ---
 syntax: go
 tags:
-  - array
   - capacity
   - go
   - slice

@@ -1,9 +1,8 @@
 ---
 syntax: go
 tags:
-  - array
   - go
   - length
   - slice
 ---
-l = len([]int{1, 2, 3})
+l := len([]int{1, 2, 3})

@@ -1,0 +1,14 @@
+---
+syntax: go
+tags:
+  - add
+  - after
+  - append
+  - combine
+  - go
+  - join
+  - push
+  - slice
+---
+orig := []int{1, 2}
+appd := append(orig, 3)

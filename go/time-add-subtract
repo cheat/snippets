@@ -1,0 +1,19 @@
+---
+syntax: go
+tags:
+  - date
+  - day
+  - from
+  - go
+  - month
+  - next
+  - previous
+  - since
+  - time
+  - timestamp
+  - tomorrow
+  - year
+  - yesterday
+---
+// get timestamp 1 day from now (in the future)
+tomorrow := time.Now().AddDate(0, 0, 1)

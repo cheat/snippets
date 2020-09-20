@@ -1,15 +1,18 @@
 ---
 syntax: go
 tags:
-  - create
-  - get
   - go
-  - integer
-  - number
-  - random
+  - randomize
+  - shuffle
+  - slice
 ---
 // seed the random number generator
 // NB: this seed is not cryptographically random. Use the `crypto_rand` package
 // if you need cryptographic entropy.
 rand.Seed(time.Now().Unix())
-r := rand.Intn(5) // return 0-4; set is [0,n)
+
+// shuffle the slice
+foo := []int{1, 2, 3, 4, 5}
+rand.Shuffle(len(foo), func(i, j int) {
+  foo[i], foo[j] = foo[j], foo[i]
+})

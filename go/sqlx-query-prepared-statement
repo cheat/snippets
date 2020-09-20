@@ -17,7 +17,7 @@ if err != nil {
     // log.Fatalf("failed to prepare statement: %v", err)
 }
 
-// query records into an array of structs
+// query records into a slice of structs
 foos := []Foo{}
 if err = stmt.Get(&foos, "qux", "quux"); err != nil {
     // log.Fatalf("failed to query database: %v", err)

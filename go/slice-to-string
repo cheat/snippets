@@ -1,8 +1,10 @@
 ---
 syntax: go
 tags:
+  - convert
   - go
   - implode
+  - join
   - slice
   - split
   - string

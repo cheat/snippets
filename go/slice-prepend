@@ -1,1 +1,13 @@
-TODO
+---
+syntax: go
+tags:
+  - add
+  - beginning
+  - combine
+  - go
+  - join
+  - prepend
+  - slice
+---
+orig := []int{2, 3}
+prep := append([]int{1}, orig...)
