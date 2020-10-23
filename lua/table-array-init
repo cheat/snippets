@@ -1,0 +1,10 @@
+---
+syntax: lua
+tags:
+  - array
+  - init
+  - lua
+  - table
+---
+-- initialize a table that functions as an array in other languages
+t = {"foo", "bar", "baz"}

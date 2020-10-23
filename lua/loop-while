@@ -1,0 +1,11 @@
+---
+syntax: lua
+tags:
+  - control
+  - loop
+  - lua
+  - while
+---
+while true do
+
+end

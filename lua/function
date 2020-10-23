@@ -4,6 +4,6 @@ tags:
   - function
   - lua
 ---
-function foo(bar)
-  return bar
+function foo(bar, baz)
+  return bar, baz
 end

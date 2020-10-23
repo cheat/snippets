@@ -1,0 +1,12 @@
+---
+syntax: lua
+tags:
+  - control
+  - loop
+  - lua
+  - repeat
+  - until
+---
+repeat
+
+until false

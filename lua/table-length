@@ -1,0 +1,8 @@
+---
+syntax: lua
+tags:
+  - length
+  - lua
+  - table
+---
+len = #{"foo", "bar", "baz"}

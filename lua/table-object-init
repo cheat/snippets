@@ -1,0 +1,19 @@
+---
+syntax: lua
+tags:
+  - array
+  - associative
+  - init
+  - lua
+  - map
+  - object
+  - record
+  - struct
+  - table
+---
+-- initialize a table that functions as an object/map/associative array in
+-- other languages
+t = {
+  foo = "bar",
+  baz = "bat",
+}

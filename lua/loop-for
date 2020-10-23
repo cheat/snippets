@@ -1,0 +1,11 @@
+---
+syntax: lua
+tags:
+  - control
+  - for
+  - lua
+  - loop
+---
+for i=1,10 do
+  print(i)
+end

@@ -1,0 +1,16 @@
+---
+syntax: lua
+tags:
+  - conditional
+  - control
+  - lua
+  - switch
+---
+-- Lua has no `switch` statement. Use the following instead:
+if true then
+
+elseif true then
+
+else
+
+end
