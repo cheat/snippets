@@ -1,0 +1,10 @@
+---
+syntax: go
+tags:
+  - coerce
+  - convert
+  - go
+  - int
+  - string
+---
+s := strconv.Itoa(100)
