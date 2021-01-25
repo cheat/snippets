@@ -2,6 +2,7 @@
 syntax: lua
 tags:
   - control
+  - iterate
   - loop
   - lua
   - repeat

@@ -3,9 +3,10 @@ syntax: lua
 tags:
   - control
   - for
-  - lua
   - loop
+  - lua
 ---
-for i=1,10 do
+-- vars are from, to, and step value
+for i = 1, 10, 1 do
   print(i)
 end

@@ -1,0 +1,21 @@
+---
+syntax: lua
+tags:
+  - class
+  - constructor
+  - init
+  - lua
+  - object
+  - struct
+  - table
+---
+-- initialize the class metatable
+User = {}
+
+-- define the constructor
+function User:new(u)
+    u = u or {}
+    setmetatable(u, self)
+    self.__index = self
+    return u
+end

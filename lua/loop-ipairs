@@ -1,0 +1,14 @@
+---
+syntax: lua
+tags:
+  - control
+  - foreach
+  - iterate
+  - loop
+  - lua
+  - table
+---
+-- iterate over numerically-indexed table
+for i, val in ipairs({"foo", "bar", "baz"}) do
+    -- print(i .. ":" .. val)
+end

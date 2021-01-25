@@ -1,0 +1,15 @@
+---
+syntax: lua
+tags:
+  - control
+  - foreach
+  - iterate
+  - loop
+  - lua
+  - table
+---
+-- iterate over a table's properties
+local user = {first = "Linus", last = "Torvalds"}
+for key, val in pairs(user) do
+    -- print(key .. ":" .. val)
+end

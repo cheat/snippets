@@ -13,7 +13,7 @@ tags:
 ---
 -- initialize a table that functions as an object/map/associative array in
 -- other languages
-t = {
+local t = {
   foo = "bar",
   baz = "bat",
 }

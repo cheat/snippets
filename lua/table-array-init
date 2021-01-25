@@ -6,5 +6,5 @@ tags:
   - lua
   - table
 ---
--- initialize a table that functions as an array in other languages
-t = {"foo", "bar", "baz"}
+-- initialize a numerically-indexed table
+local t = {"foo", "bar", "baz"}

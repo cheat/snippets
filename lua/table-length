@@ -5,4 +5,4 @@ tags:
   - lua
   - table
 ---
-len = #{"foo", "bar", "baz"}
+local len = #{"foo", "bar", "baz"}

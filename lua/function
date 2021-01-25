@@ -4,6 +4,7 @@ tags:
   - function
   - lua
 ---
+-- functions may return multiple values
 function foo(bar, baz)
   return bar, baz
 end
