@@ -1,0 +1,11 @@
+---
+syntax: lua
+tags:
+  - add
+  - array
+  - insert
+  - lua
+  - table
+---
+-- append "foo" to the end of table `t`
+table.insert(t, "foo")

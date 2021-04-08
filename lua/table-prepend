@@ -1,0 +1,10 @@
+---
+syntax: lua
+tags:
+  - add
+  - array
+  - lua
+  - table
+---
+-- insert "foo" into position `1` of table `t`
+table.insert(t, 3, "foo")

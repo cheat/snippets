@@ -1,0 +1,8 @@
+---
+syntax: lua
+tags:
+  - conditional
+  - control
+  - lua
+---
+local value = true and "yes" or "no"

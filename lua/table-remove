@@ -1,0 +1,12 @@
+---
+syntax: lua
+tags:
+  - array
+  - delete
+  - lua
+  - pop
+  - table
+---
+-- remove (and return) the element at position `3` from table `t`.
+-- (`t` will be resized.)
+local elem = table.remove(t, 3)
