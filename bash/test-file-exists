@@ -1,0 +1,12 @@
+---
+syntax: bash
+tags:
+  - conditional
+  - exists
+  - file
+  - if
+  - test
+---
+if [ -f "$FILEPATH" ]; then
+  # the file exists
+fi

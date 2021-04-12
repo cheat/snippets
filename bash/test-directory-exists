@@ -1,0 +1,12 @@
+---
+syntax: bash
+tags:
+  - conditional
+  - directory
+  - exists
+  - if
+  - test
+---
+if [ -d "$DIRECTORY" ]; then
+  # the directory exists
+fi
