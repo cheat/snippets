@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - append
+  - array
+  - insert
+  - javascript
+  - push
+---
+let arr = ['foo', 'bar'];
+arr.push('baz');

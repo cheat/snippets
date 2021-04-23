@@ -1,0 +1,10 @@
+---
+syntax: javascript
+tags:
+  - javascript
+  - replace
+  - string
+  - substring
+---
+let hello = 'Hello, world!';
+let goodbye = hello.replace('Hello', 'Goodbye');

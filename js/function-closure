@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - anonymous
+  - closure
+  - function
+  - javascript
+  - lambda
+---
+(function(str) {
+  console.log(str)
+})('foo')

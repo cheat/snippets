@@ -1,0 +1,14 @@
+---
+syntax: javascript
+tags:
+  - add
+  - array
+  - before
+  - insert
+  - javascript
+  - preprend
+  - unshift
+---
+// prepend `foo` to the array
+let arr = ['bar', 'baz'];
+arr.unshift('foo');

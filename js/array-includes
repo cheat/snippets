@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - array
+  - contains
+  - includes
+  - javascript
+---
+let arr = ['foo', 'bar', 'baz'];
+// NB: `includes` is case-sensitive
+let inc = arr.includes('foo');

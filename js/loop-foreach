@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - array
+  - control
+  - iterate
+  - javascript
+  - loop
+---
+['foo', 'bar', 'baz'].forEach(item => {
+  console.log(item);
+});

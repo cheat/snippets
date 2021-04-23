@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - float
+  - int
+  - javascript
+  - math
+  - number
+  - round
+---
+let num = Math.round(9.5);

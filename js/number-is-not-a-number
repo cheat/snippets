@@ -1,0 +1,10 @@
+---
+syntax: javascript
+tags:
+  - is
+  - javascript
+  - math
+  - not
+  - number
+---
+let nan = isNaN(123);

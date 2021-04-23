@@ -1,0 +1,10 @@
+---
+syntax: javascript
+tags:
+  - array
+  - count
+  - javascript
+  - length
+---
+let arr = ['foo', 'bar', 'baz'];
+let length = arr.length;

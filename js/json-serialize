@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - convert
+  - javascript
+  - json
+  - object
+  - serialize
+  - stringify
+---
+let user = { first: 'John', last: 'Doe' };
+let json = JSON.stringify(user);

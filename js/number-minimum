@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - float
+  - int
+  - javascript
+  - math
+  - minimum
+  - number
+---
+let arr = [1, 2, 3];
+let min = Math.min(...arr);

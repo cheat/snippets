@@ -1,0 +1,10 @@
+---
+syntax: javascript
+tags:
+  - array
+  - create
+  - initialize
+  - javascript
+  - new
+---
+let arr = ['foo', 'bar', 'baz'];

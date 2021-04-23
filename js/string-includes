@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - contains
+  - includes
+  - javascript
+  - string
+  - substring
+---
+let str = 'hello, world!';
+let inc = str.includes('world');

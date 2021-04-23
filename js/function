@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - function
+  - javascript
+---
+function foo(bar) {
+  return bar;
+}

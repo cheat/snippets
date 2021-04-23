@@ -1,0 +1,14 @@
+---
+syntax: javascript
+tags:
+  - conditional
+  - control
+  - javascript
+---
+if (true) {
+
+} else if (true) {
+
+} else {
+
+}

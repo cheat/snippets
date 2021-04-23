@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - conditional
+  - control
+  - javascript
+---
+let condition = true
+let val = condition ? 'yes' : 'no';

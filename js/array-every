@@ -1,0 +1,14 @@
+---
+syntax: javascript
+tags:
+  - check
+  - every
+  - javascript
+  - object
+  - test
+---
+// `allEven` will be `true` if every element in `arr` is even
+let arr = [2, 4, 6, 8];
+let allEven = arr.every(n => {
+  return n % 2 == 0;
+});

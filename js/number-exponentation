@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - exponentation
+  - float
+  - int
+  - javascript
+  - math
+  - number
+  - power
+---
+let num = Math.pow(10, 2);

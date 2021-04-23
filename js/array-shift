@@ -1,0 +1,13 @@
+---
+syntax: javascript
+tags:
+  - array
+  - before
+  - first
+  - javascript
+  - remove
+  - shift
+---
+// remove `foo` from the array
+let arr = ['foo', 'bar', 'baz'];
+let foo = arr.shift();

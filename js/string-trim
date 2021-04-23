@@ -1,0 +1,10 @@
+---
+syntax: javascript
+tags:
+  - javascript
+  - string
+  - trim
+  - whitespace
+---
+let str = "  foo\n";
+let trimmed = str.trim();

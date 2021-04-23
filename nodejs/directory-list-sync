@@ -1,0 +1,21 @@
+---
+syntax: javascript
+tags:
+  - directory
+  - filesystem
+  - get
+  - javascript
+  - list
+  - nodejs
+  - read
+  - show
+  - sync
+---
+try {
+  let files = fs.readdirSync("/path/to/dir");
+
+  // ...
+
+} catch (err) {
+  // TODO: handle errors
+}

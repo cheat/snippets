@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - count
+  - javascript
+  - length
+  - string
+---
+let length = 'Hello, world!'.length;

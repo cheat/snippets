@@ -1,0 +1,13 @@
+---
+syntax: javascript
+tags:
+  - array
+  - convert
+  - implode
+  - javascript
+  - join
+  - string
+---
+let arr = ['foo', 'bar', 'baz'];
+let str = arr.toString();
+// str: 'foo,bar,baz'

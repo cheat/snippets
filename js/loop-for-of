@@ -1,0 +1,20 @@
+---
+syntax: javascript
+tags:
+  - array
+  - control
+  - for
+  - iterate
+  - javascript
+  - loop
+  - map
+  - object
+  - set
+  - string
+---
+// unlike `forEach`, `for of` can iterate over any iterable
+let arr = ['foo', 'bar', 'baz'];
+// NB: `let` in loop may be one of: `const`, `let`, `var`
+for (let x of arr) {
+
+}

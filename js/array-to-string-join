@@ -1,0 +1,14 @@
+---
+syntax: javascript
+tags:
+  - array
+  - convert
+  - implode
+  - javascript
+  - join
+  - string
+---
+let arr = ['foo', 'bar', 'baz'];
+// NB: param is optional separator, and defaults to `,`
+let str = arr.join('\n');
+// str: 'foo\nbar\nbaz'

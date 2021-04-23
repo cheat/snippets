@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - convert
+  - javascript
+  - string
+  - uppercase
+---
+let str = 'hello, world'.toUpperCase();

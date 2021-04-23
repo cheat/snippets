@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - array
+  - javascript
+  - sort
+---
+let arr = ['foo', 'bar', 'baz'];
+arr.sort();

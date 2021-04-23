@@ -1,0 +1,18 @@
+---
+syntax: javascript
+tags:
+  - cache
+  - function
+  - javascript
+  - memoize
+---
+function foo(bar) {
+  // if the result has been memoized, return it and exit early
+  if (this.memo) {
+    return this.memo;
+  }
+
+  // otherwise, compute, memoize, and return the result
+  this.memo = 1;
+  return this.memo;
+}

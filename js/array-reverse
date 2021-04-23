@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - array
+  - javascript
+  - reverse
+---
+let arr = ['foo', 'bar', 'baz'];
+arr.reverse();

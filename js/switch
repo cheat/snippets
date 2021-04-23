@@ -1,0 +1,23 @@
+---
+syntax: javascript
+tags:
+  - case
+  - conditional
+  - control
+  - javascript
+  - switch
+---
+switch(value) {
+  case 1:
+    // handle 1
+    break;
+  case 2:
+  case 3:
+    // handle 2 and 3
+    break;
+  case 4:
+    // handle 4
+    break;
+  default:
+    // handle all other values
+}

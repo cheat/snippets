@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - convert
+  - javascript
+  - lowercase
+  - string
+---
+let str = 'HELLO, WORLD'.toLowerCase();

@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - absolute
+  - float
+  - int
+  - javascript
+  - math
+  - number
+  - value
+---
+let val = Math.abs(-10);

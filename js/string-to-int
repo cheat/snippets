@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - convert
+  - int
+  - javascript
+  - number
+  - parse
+  - string
+---
+let num = parseInt("1");

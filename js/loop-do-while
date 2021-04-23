@@ -1,0 +1,15 @@
+---
+syntax: javascript
+tags:
+  - control
+  - do
+  - javascript
+  - loop
+  - while
+---
+let i = 0;
+do {
+  // ...
+  i++;
+}
+while (i < 10);

@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - javascript
+  - reverse
+  - string
+---
+let str = 'Hello, world!';
+let rev = str.split('').reverse().join('');

@@ -1,0 +1,19 @@
+---
+syntax: javascript
+tags:
+  - directory
+  - filesystem
+  - get
+  - javascript
+  - list
+  - nodejs
+  - read
+  - show
+---
+fs.readdir("/path/to/dir", (err, files) => {
+  if (err) {
+    // TODO: handle errors
+  }
+
+  // console.log(files);
+});

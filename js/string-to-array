@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - array
+  - convert
+  - explode
+  - javascript
+  - split
+  - string
+  - tokenize
+---
+let arr = 'Hello, world!'.split(' ');

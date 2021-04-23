@@ -1,0 +1,13 @@
+---
+syntax: javascript
+tags:
+  - down
+  - float
+  - floor
+  - int
+  - javascript
+  - math
+  - number
+  - round
+---
+let num = Math.floor(9.5);

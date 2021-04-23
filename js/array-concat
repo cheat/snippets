@@ -1,0 +1,13 @@
+---
+syntax: javascript
+tags:
+  - add
+  - array
+  - combine
+  - concatenate
+  - javascript
+  - merge
+---
+let arr1 = ['foo', 'bar'];
+let arr2 = ['baz', 'qux'];
+let union = arr1.concat(arr2);

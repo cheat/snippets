@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - array
+  - end
+  - javascript
+  - pop
+  - remove
+---
+let arr = ['foo', 'bar', 'baz'];
+let baz = arr.pop();

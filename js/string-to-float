@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - convert
+  - float
+  - javascript
+  - number
+  - parse
+  - string
+---
+let num = parseFloat("1.0");

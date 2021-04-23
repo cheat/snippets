@@ -1,0 +1,14 @@
+---
+syntax: javascript
+tags:
+  - check
+  - javascript
+  - object
+  - some
+  - test
+---
+// `someEven` will be `true` if some elements in `arr` are even
+let arr = [2, 4, 6, 8];
+let someEven = arr.some(n => {
+  return n % 2 == 0;
+});

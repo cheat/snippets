@@ -1,0 +1,13 @@
+---
+syntax: javascript
+tags:
+  - array
+  - iterate
+  - javascript
+  - loop
+  - map
+---
+let arr = [1, 2, 3, 4, 5];
+let doubled = arr.map(n => {
+  return n * 2;
+});

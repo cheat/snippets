@@ -1,0 +1,17 @@
+---
+syntax: javascript
+tags:
+  - catch
+  - error
+  - finally
+  - handling
+  - javascript
+  - try
+---
+try {
+
+} catch(err) {
+
+} finally {
+
+}

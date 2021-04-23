@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - float
+  - int
+  - javascript
+  - math
+  - maximum
+  - number
+---
+let arr = [1, 2, 3];
+let max = Math.max(...arr);

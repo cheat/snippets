@@ -1,0 +1,8 @@
+---
+syntax: javascript
+tags:
+  - javascript
+  - string
+  - substring
+---
+let str = 'Hello, world!'.substr(0, 5); // 'Hello'

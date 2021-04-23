@@ -1,0 +1,12 @@
+---
+syntax: javascript
+tags:
+  - create
+  - initialize
+  - javascript
+  - object
+---
+let user = {
+  first: 'John',
+  last: 'Doe',
+};

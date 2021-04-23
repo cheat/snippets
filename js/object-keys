@@ -1,0 +1,10 @@
+---
+syntax: javascript
+tags:
+  - get
+  - javascript
+  - keys
+  - object
+---
+let user = { first: 'John', last: 'Doe' };
+let keys = Object.keys(user);

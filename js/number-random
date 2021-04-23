@@ -1,0 +1,15 @@
+---
+syntax: javascript
+tags:
+  - float
+  - int
+  - javascript
+  - math
+  - number
+  - random
+---
+// generate a random number between 0-1 (exclusive)
+let num = Math.random();
+
+// generate a random number between 0-100 (inclusive)
+let num = Math.floor((Math.random() * 100) + 1);

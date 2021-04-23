@@ -1,0 +1,13 @@
+---
+syntax: javascript
+tags:
+  - ceil
+  - float
+  - int
+  - javascript
+  - math
+  - number
+  - round
+  - up
+---
+let num = Math.ceil(9.5);

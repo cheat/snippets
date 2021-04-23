@@ -1,0 +1,13 @@
+---
+syntax: javascript
+tags:
+  - convert
+  - javascript
+  - json
+  - object
+  - parse
+  - unserialize
+  - unstringify
+---
+let json = '{"first":"John","last":"Doe"}';
+let user = JSON.parse(json);
