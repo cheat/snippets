@@ -1,0 +1,8 @@
+---
+syntax: markdown
+tags:
+  - inline
+  - code
+  - markdown
+---
+`console.log('hello, world!');`

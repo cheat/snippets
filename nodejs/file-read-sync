@@ -1,0 +1,16 @@
+---
+syntax: javascript
+tags:
+  - filesystem
+  - javascript
+  - nodejs
+  - read
+  - sync
+---
+try {
+  // NB: remove the `encoding` option to return `data` as a `Buffer`
+  let data = fs.readFileSync('/path/to/file', { encoding: 'utf-8'});
+  // console.log(data);
+} catch (e) {
+    // TODO: handle errors
+}

@@ -1,0 +1,10 @@
+---
+syntax: markdown
+tags:
+  - blockquote
+  - markdown
+  - text
+---
+> Lorem ipsum dolor sit amet.
+>
+>> Consectetur adipiscing elit.

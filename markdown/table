@@ -1,0 +1,16 @@
+---
+syntax: markdown
+tags:
+  - cell
+  - column
+  - data
+  - markdown
+  - row
+  - table
+  - text
+---
+Foo  | Bar  | Baz
+-----|------|-----
+data | data | data
+data | data | data
+data | data | data

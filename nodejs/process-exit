@@ -1,0 +1,11 @@
+---
+syntax: javascript
+tags:
+  - end
+  - exit
+  - javascript
+  - nodejs
+  - process
+  - program
+---
+process.exit(0);

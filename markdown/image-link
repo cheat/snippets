@@ -1,0 +1,14 @@
+---
+syntax: markdown
+tags:
+  - hyperlink
+  - identifier
+  - image
+  - img
+  - markdown
+  - reference
+---
+
+[![alt text](/images/example.png "title text")*caption text*][url]
+
+[url]: https://example.com

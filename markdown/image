@@ -1,0 +1,8 @@
+---
+syntax: markdown
+tags:
+  - image
+  - img
+  - markdown
+---
+![alt text](/images/example.png "title text")

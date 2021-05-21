@@ -1,0 +1,9 @@
+---
+syntax: markdown
+tags:
+  - anchor
+  - email
+  - hyperlink
+  - markdown
+---
+[email John Doe](mailto:johndoe@example.com)

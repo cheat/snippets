@@ -1,0 +1,12 @@
+---
+syntax: markdown
+tags:
+  - identifier
+  - image
+  - img
+  - markdown
+  - reference
+---
+![alt text][img]
+
+[img]: /images/example.png

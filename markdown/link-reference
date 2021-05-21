@@ -1,0 +1,11 @@
+---
+syntax: markdown
+tags:
+  - anchor
+  - hyperlink
+  - markdown
+  - reference
+---
+[Go to Google][google]
+
+[google]: https://google.com

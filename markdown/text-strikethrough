@@ -1,0 +1,9 @@
+---
+syntax: markdown
+tags:
+  - delete
+  - markdown
+  - strikethrough
+  - text
+---
+~~strikethrough~~

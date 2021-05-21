@@ -1,0 +1,10 @@
+---
+syntax: markdown
+tags:
+  - block
+  - code
+  - markdown
+---
+```javascript
+console.log('hello, world!');
+```
