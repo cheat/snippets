@@ -3,7 +3,7 @@ syntax: go
 tags:
   - convert
   - go
-  - lowercase
+  - uppercase
   - string
 ---
 upper := strings.ToUpper("foo")

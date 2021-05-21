@@ -6,7 +6,6 @@ tags:
   - implode
   - join
   - slice
-  - split
   - string
 ---
 joined := strings.Join([]string{"foo", "bar", "bar"}, " ")
