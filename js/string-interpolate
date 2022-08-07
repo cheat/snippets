@@ -1,0 +1,9 @@
+---
+syntax: javascript
+tags:
+  - interpolate
+  - javascript
+  - string
+---
+let color = 'brown';
+console.log(`The quick ${color} fox jumped over the lazy dog.`);
