@@ -2,7 +2,7 @@
 syntax: go
 tags:
   - go
-  - var
+  - variable
   - initialize
 ---
 pi := 3.14

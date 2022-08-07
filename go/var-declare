@@ -2,7 +2,7 @@
 syntax: go
 tags:
   - go
-  - var
+  - variable
   - declare
 ---
 var pi float64

@@ -1,0 +1,9 @@
+---
+syntax: go
+tags:
+  - create
+  - go
+  - initialize
+  - slice
+---
+s := []string{"foo", "bar", "baz"}
