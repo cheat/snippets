@@ -7,6 +7,6 @@ tags:
   - if
   - test
 ---
-if [ -f "$FILEPATH" ]; then
-  # the file exists
+if [[ -f "$foo" ]]; then
+  # file `foo` exists
 fi
