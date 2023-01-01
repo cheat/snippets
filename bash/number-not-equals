@@ -8,5 +8,5 @@ tags:
   - test
 ---
 if (( foo != bar )); then
-  # var `foo` not equals `bar`
+  # var `foo` doesn't equal `bar`
 fi
