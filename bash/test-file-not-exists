@@ -1,0 +1,12 @@
+---
+syntax: bash
+tags:
+  - conditional
+  - not-exists
+  - file
+  - if
+  - test
+---
+if ! [[ -f "$foo" ]]; then
+  # file `foo` doesn't exist
+fi

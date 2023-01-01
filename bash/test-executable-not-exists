@@ -1,0 +1,12 @@
+---
+syntax: bash
+tags:
+  - conditional
+  - not-exists
+  - file
+  - if
+  - test
+---
+if ! [[ -x "$(command -v "$foo")" ]]; then
+  # a `foo` executable is unavailable
+fi

@@ -1,0 +1,12 @@
+---
+syntax: bash
+tags:
+  - conditional
+  - directory
+  - not-exists
+  - if
+  - test
+---
+if ! [[ -d "$foo" ]]; then
+  # directory `foo` doesn't exist
+fi
