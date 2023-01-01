@@ -7,7 +7,6 @@ tags:
   - if
   - test
 ---
-# test if command `foo` is available on the `$PATH`
-if ! [ -x "$(command -v foo)" ]; then
-  # the `foo` executable is not on the path
+if [[ -x "$(command -v "$foo")" ]]; then
+  # a `foo` executable is available
 fi

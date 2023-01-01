@@ -7,6 +7,6 @@ tags:
   - if
   - test
 ---
-if [ -d "$DIRECTORY" ]; then
-  # the directory exists
+if [[ -d "$foo" ]]; then
+  # directory `foo` exists
 fi
