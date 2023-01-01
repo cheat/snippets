@@ -7,6 +7,6 @@ tags:
   - string
   - test
 ---
-if [[ "$foo" == "bar" ]]; then
-  # var `foo` equals "bar"
+if [[ "$foo" == "$bar" ]]; then
+  # var `foo` equals `bar`
 fi
